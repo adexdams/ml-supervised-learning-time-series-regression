@@ -1,4 +1,4 @@
-# ml-supervised-learning-time-series-regression
+# ML Supervised Learning Time Series Regression
 I executed a Kaggle competition "Blue Book for Bulldozers" to predict the auction sale price for heavy equipment.
 
 * This demo was developed following the completion of the "Complete A.I. & Machine Learning, Data Science Bootcamp" courses: https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/
