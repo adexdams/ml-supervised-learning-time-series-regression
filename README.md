@@ -14,14 +14,17 @@ The instruction from Kaggle was to predict the sale price of a particular piece 
 
 
 ## What you should expect
-The following steps were taken on the dataset to develop an ML model
-* Data exploration to determine the influence of various features on the outcome or target feature
-* Popular ML machines were imported into the notebook.
-* The data sets were described with statistic charts including a correlation matrix
-* Classification ML models were deployed including Logistic Regression, K-Nearest Neighbor Classifier, Random Forest Classifier, Naive Bayes Classifier & SVM Classifier
-* After the initial scoring, the models were scored and evaluated
-* The model hyperparameters were tuned using the following measures by hand coding, using RandomizedSearchCV and GridSearchCV
-* The model outputs were evaluated with an ROC curve, Confusion Matrix, Classification Report, etc.
+The following steps were taken on the dataset to develop an ML model:
+First, there are two notebooks in this presentation, 03 Supervised learning, ends with an overfitting problem in the model score. In contrast, 04 Supervised learning ended with a resolution to the overfitting problem and correction of the model.
+Then the usual steps were taken on both documents:
+1.	Data exploration was carried out to gain clarity on the extent of the data.
+2.	The missing datasets were replaced with median data and data types were changed to categorical data types.
+3.	The data was split by the time series (SaleYear) to group into training and validation datasets.
+4.	The classification ML model deployed was a Logistic Regression and scored on MAE and RMSLE
+5.	A function was used to process the data and make the model work on new datasets.
+6.	It also showed a hyperparameter tunning that used RandomizedSearchCV to find the best parameters and ultimately resulted in model improvement.
+7.	Finally, it concluded with a function that ranked the features by importance.
+
 
 
 ## Next Steps
